@@ -1,0 +1,30 @@
+/* This CSS file is to style both the New User form and the Existing form */
+
+.username-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+.password-section {
+  display: flex;
+  align-items: flex-start;
+}
+.password-label,
+.password-field {
+  margin-bottom: 10px;
+}
+
+.account-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+/* allows the welcome screen to fit on mobile */
+@media screen and (max-width: 600px) {
+  .login-container,
+  .newUser-container {
+    width: 65%;
+    padding: 20px;
+    font-size: 16px;
+  }
+}
